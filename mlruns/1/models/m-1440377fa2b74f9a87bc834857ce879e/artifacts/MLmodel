@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/Preet/PycharmProjects/silent-churn-mlops/mlruns/1/models/m-1440377fa2b74f9a87bc834857ce879e/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.4
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.11.1
+model_id: m-1440377fa2b74f9a87bc834857ce879e
+model_size_bytes: 219000
+model_uuid: m-1440377fa2b74f9a87bc834857ce879e
+prompts: null
+run_id: 38a5ecc025904fa8a2fec75e8161c64c
+utc_time_created: '2026-04-29 17:34:55.738790'
